@@ -67,3 +67,20 @@ nav {
     background-color:rebeccapurple;
     color: white;
 }
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-image: url(https://www.revistaadios.es/fotos/noticias/Datos.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+header h1 {
+    color:bisque;
+    margin-left: 10px;
+    padding-left: 10px;
+    
+}
