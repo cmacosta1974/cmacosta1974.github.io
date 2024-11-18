@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -10,43 +14,56 @@ footer {
     
 }
 
-nav {
-    background-color: aquamarine;
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-
-
-
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-h1,h2 {
+h1,h2,h3 {
     text-align: center;
 }
 main {
     text-align: center;
-    color:whitesmoke;
-    
+    color:whitesmoke;  
     background-image: url(galaxia.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 
 }
-/*
+
+p {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+nav {
+    background-color: aqua;
+}
+.menu {
+    list-style: none;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    */
+}
+
+.menu li {
+    width: 130px;
+    margin: 0 15px;
+    border: 1px solid rebeccapurple;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 0;
+    color: rebeccapurple;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+    background-color:rebeccapurple;
+    color: white;
+}
