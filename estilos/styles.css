@@ -11,10 +11,16 @@ footer {
 }
 
 nav {
-    text-align: center;
     background-color: aquamarine;
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+
 }
 
 ul {
@@ -37,3 +43,10 @@ main {
     background-size: cover;
 
 }
+/*
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    */
